@@ -62,15 +62,4 @@ The **Resume Screening System** is a Flask-based Applicant Tracking System (ATS)
 ---
 
 ## 📁 Project Structure
-AI-Based-Resume-Screening-System/
-│
-├── Screenshots/        # Application screenshots for README
-├── Templates/          # HTML templates (Flask frontend)
-│
-├── app.py              # Main Flask application
-├── analysis.py         # ATS score calculation & skill matching
-├── parser.py           # Resume parsing logic
-├── screening.py        # Resume screening process
-│
-├── Requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+<img width="1716" height="911" alt="image" src="https://github.com/user-attachments/assets/092e1b82-9f8d-4fb8-a089-1ebb0efb56fc" />
