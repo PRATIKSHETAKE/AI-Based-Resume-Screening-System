@@ -7,50 +7,14 @@
 <br>
 
 <div align="center">
-
-<!-- Row 1 -->
-<div style="transform: rotate(-20deg); margin-top:40px;">
   <img src="Screenshots/user login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/application_overview.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/openings.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/opening admin.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/applicant.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/hr login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-</div>
-
-<br>
-
-<!-- Row 2 -->
-<div style="transform: rotate(-20deg); margin-top:40px;">
-  <img src="Screenshots/user login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/application_overview.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/openings.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
+  <img src="Screenshots/applicant.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
+  <img src="Screenshots/hr login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/opening admin.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/applicant.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/hr login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/applications.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-</div>
-
-<br>
-
-<!-- Row 3 -->
-<div style="transform: rotate(-20deg); margin-top:40px;">
-  <img src="Screenshots/user login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/application_overview.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/openings.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-  <img src="Screenshots/opening admin.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/applicant.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/hr login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/applications.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-</div>
-
-</div>
 
 <br>
 
@@ -98,3 +62,15 @@ The **Resume Screening System** is a Flask-based Applicant Tracking System (ATS)
 ---
 
 ## 📁 Project Structure
+AI-Based-Resume-Screening-System/
+│
+├── Screenshots/        # Application screenshots for README
+├── Templates/          # HTML templates (Flask frontend)
+│
+├── app.py              # Main Flask application
+├── analysis.py         # ATS score calculation & skill matching
+├── parser.py           # Resume parsing logic
+├── screening.py        # Resume screening process
+│
+├── Requirements.txt    # Python dependencies
+└── README.md           # Project documentation
