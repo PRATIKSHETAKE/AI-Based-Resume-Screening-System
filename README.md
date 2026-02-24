@@ -15,7 +15,7 @@
   <img src="Screenshots/applicant.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/hr login.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
   <img src="Screenshots/job details.png" width="23%" style="margin:10px; border-radius:15px; box-shadow:0 25px 50px rgba(0,0,0,0.4);" />
-
+</div>
 <br>
 
 
